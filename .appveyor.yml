@@ -10,6 +10,7 @@ build: off  # будем использовать свой скрипт сбор
 
 install:
   # запускаем SUT (& означает, что в фоновом режиме - не блокируем терминал для запуска тестов)
+  - chmod +x ./artifacts/app-orded.jar
   - java -jar ./artifacts/app-orded.jar &
 
 build_script:
