@@ -21,7 +21,7 @@ public class AppOrderTest {
         if (osName.contains("win")) {
             System.setProperty("webdriver.chrome.driver", "./driver/win/chromedriver.exe");
         } else {
-            System.setProperty("webdriver.chrome.driver", "/driver/linux/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "driver/linux/chromedriver");
         }
     }
 
